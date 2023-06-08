@@ -71,7 +71,7 @@ quando l’utente ha preso visione del messaggio oppure quando è d’accordo a 
 
 ## TESTS
 Per verificare che il programma non faccia errori nel calcolare i prezzi e gli sconti, ho
-utilizzato il framework JUnit per fare dei test sulle classi Pacco, Prodotto, ScontoFisso,
+utilizzato il framework JUnit testare le seguenti classi Pacco, Prodotto, ScontoFisso,
 ScontoPercentuale, ListaSconti.
 
 ## AVVIO APPLICAZIONE
