@@ -1,7 +1,7 @@
 # Negozio-Elettronica
 Simulazione di un negozio di dispositivi e oggetti elettrnoici.
 
-**SPECIFICHE**
+## SPECIFICHE
 Il progetto propone una applicazione che simula un negozio di elettronica online tramite un interfaccia grafica. 
 L’interfaccia si presenta inizialmente come una finestra divisa fondamentalmente in tre componenti principali.
 La prima componente è il catalogo: al suo interno sono contenuti tutti i prodotti acquistabili del
@@ -24,7 +24,7 @@ suoi acquisti. Se questa viene confermata, l'utente viene rimandato alla finestr
 effettuare una nuova spesa, altrimenti ha la possibilità di tornare indietro e modificare i suoi
 acquisti.
 
-**COMMENTI E MOTIVAZIONI**
+## COMMENTI E MOTIVAZIONI
 I prodotti del catalogo posso essere singoli articoli, oppure composizione di più prodotti, che
 a loro volta possono essere costituiti da altre composizioni di prodotti. Ho deciso di realizzare
 i prodotti utilizzando il design pattern Composite. In questo modo, l'utente interagisce con
@@ -69,12 +69,12 @@ Le classi MessageDialog e FatturaDialog, siccome estendono la classe ListenedDia
 ho implementato un pattern di tipo Observer, hanno la possibilità di notificare gli osservatori
 quando l’utente ha preso visione del messaggio oppure quando è d’accordo a confermare la fattura.
 
-**TESTS**
+## TESTS
 Per verificare che il programma non faccia errori nel calcolare i prezzi e gli sconti, ho
 utilizzato il framework JUnit per fare dei test sulle classi Pacco, Prodotto, ScontoFisso,
 ScontoPercentuale, ListaSconti.
 
-**AVVIO APPLICAZIONE**
+## AVVIO APPLICAZIONE
 1) All’apertura del programma vene mostrata l’interfaccia utente.
 2) L’utente può consultare i dettagli dei vari prodotti e pacchi con i loro prezzi, sconti e specifiche .
 3) Fare il login attraverso una finestra dove potrà impostare: il suo Titolo, Username e il tipo di
