@@ -75,7 +75,7 @@ utilizzato il framework JUnit testare le seguenti classi Pacco, Prodotto, Sconto
 ScontoPercentuale, ListaSconti.
 
 ## AVVIO APPLICAZIONE
-1) All’apertura del programma vene mostrata l’interfaccia utente. (imgs/lgoin.png)
+1) All’apertura del programma vene mostrata l’interfaccia utente. ![Alt text](imgs/lgoin.png)
 2) L’utente può consultare i dettagli dei vari prodotti e pacchi con i loro prezzi, sconti e specifiche .
 3) Fare il login attraverso una finestra dove potrà impostare: il suo Titolo, Username e il tipo di
 carta che possiede (Nel totale dei dettagli il prezzo non è già scontato in base alla tessera
