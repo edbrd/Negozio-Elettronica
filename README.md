@@ -68,6 +68,7 @@ prodotti presenti nel carrello precedente.
 Le classi MessageDialog e FatturaDialog, siccome estendono la classe ListenedDialog dove
 ho implementato un pattern di tipo Observer, hanno la possibilità di notificare gli osservatori
 quando l’utente ha preso visione del messaggio oppure quando è d’accordo a confermare la fattura.
+![Alt text](imgs/UML_negozio_elettronica.png)
 
 ## TESTS
 Per verificare che il programma non faccia errori nel calcolare i prezzi e gli sconti, ho
@@ -76,7 +77,7 @@ ScontoPercentuale, ListaSconti.
 
 ## AVVIO APPLICAZIONE
 1) All’apertura del programma vene mostrata l’interfaccia utente. ![Alt text](imgs/lgoin.png)
-2) L’utente può consultare i dettagli dei vari prodotti e pacchi con i loro prezzi, sconti e specifiche .
+2) L’utente può consultare i dettagli dei vari prodotti e pacchi con i loro prezzi, sconti e specifiche.![Alt text](imgs/front.png)
 3) Fare il login attraverso una finestra dove potrà impostare: il suo Titolo, Username e il tipo di
 carta che possiede (Nel totale dei dettagli il prezzo non è già scontato in base alla tessera
 dell’utente).
